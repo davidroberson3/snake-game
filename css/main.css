@@ -1,13 +1,13 @@
 body {
-    font-size: 12pt;
-    font-family: Georgia, serif;
+    font-size: 10pt;
+    font-family: Monospace, serif;
+    color: green;
     text-align: center;
+    vertical-align: center;
 }
 
 h1 {
     font-size: 26pt;
     font-family: Verdana, sans-serif;
+    color: black;
 }
-
-
-/**/
