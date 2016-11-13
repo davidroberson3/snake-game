@@ -234,7 +234,9 @@ function drawFood() {
 // Function to record arrow key presses
 ///////////////////////////////////////////////////////////////////////////////
 function keyPressHandler(keyPress) {
-    snakeCharacter.updateSnakeDirection(keyPress.keyCode);
+    if (keyPress.keyCode > 36 && keyPress.keyCode < 41) {
+        snakeCharacter.updateSnakeDirection(keyPress.keyCode);
+    }
 }
 
 window.addEventListener('keydown', keyPressHandler);
